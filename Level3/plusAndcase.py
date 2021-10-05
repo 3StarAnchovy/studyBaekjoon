@@ -5,4 +5,4 @@ for i in range(0, num):
     array.append(a+b)
 
 for i in range(0, num):
-    print("Case #",i, ": ", array[i],sep='')
+    print("Case #",i + 1, ": ", array[i],sep='')
