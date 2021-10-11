@@ -3,3 +3,4 @@ def getStar(num):
 
 if __name__ == '__main__':
     num = int(input())
+    getStar(num)
