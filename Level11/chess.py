@@ -13,7 +13,7 @@ def drawMap(ChessMap, x, y):
     min = 0
     cnt = 0
     
-    for i_y in range(y - 8):
+    for i_y in range(y - 8): # 8 x 8
         for i_x in range(x - 8):
             
     return (min)
