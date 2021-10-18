@@ -10,15 +10,11 @@ def heapSort(arr, num):
             c = rootIndex
             if (c == 0):
                 break
-    rst = arr[0]
-    arr.remove(rst)
-    return (rst)
+    print(arr)
 
 
 num = int(input())
 arr = []
 for i in range(num):
     arr.append(int(input()))
-for i in range(num):
-    print(heapSort(arr, num))
-    num -= 1
+heapSort(arr, num)
