@@ -1,5 +1,4 @@
 def countingSort(num,arr,cnt):
-    print()
     for i in range(num):
         cnt[arr[i] - 1] += 1
     for i in range(num):
